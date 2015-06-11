@@ -1,0 +1,21 @@
+[alias]
+    st = status
+    co = checkout
+    ri = rebase --interactive --autosquash
+    rc = rebase --continue
+    ra = rebase --abort
+[branch]
+    autosetuprebase = always
+[rerere]
+    enabled = true
+[core]
+    autocrlf = false
+    editor = subl -w -n
+[color]
+    ui = true
+[branch "master"]
+    mergeoptions = --no-ff
+[status]
+    submoduleSummary = true
+[push]
+    default = simple
