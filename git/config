@@ -4,6 +4,7 @@
     ri = rebase --interactive --autosquash
     rc = rebase --continue
     ra = rebase --abort
+    fetch = fetch --prune
 [branch]
     autosetuprebase = always
 [rerere]
