@@ -1,0 +1,18 @@
+{
+    // Controls the limit of git submodules detected.
+    "git.detectSubmodulesLimit": 40,
+    "workbench.colorTheme": "Dracula",
+    "workbench.editor.showTabs": true,
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 20,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 25,
+    "editor.rulers": [
+        90
+    ],
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.scrollback": 10000,
+    "files.insertFinalNewline": true,
+    "breadcrumbs.enabled": true,
+}
