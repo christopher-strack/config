@@ -11,7 +11,7 @@
     enabled = true
 [core]
     autocrlf = false
-    editor = subl -w -n
+    editor = code --wait
 [color]
     ui = true
 [branch "master"]
@@ -20,3 +20,7 @@
     submoduleSummary = true
 [push]
     default = simple
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
